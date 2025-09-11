@@ -5,19 +5,12 @@
   width: auto;
   height: auto;
   overflow: hidden;
+  margin: -31px; 
+  margin-left: -7px;
   border-radius: 50% !important;
-  
-  /* Instagram-style gradient border */
-  padding: 6px; /* thickness of border */
-  background: conic-gradient(
-    #f09433, /* yellow-orange */
-    #e6683c, /* orange-red */
-    #dc2743, /* red-magenta */
-    #cc2366, /* magenta */
-    #bc1888, /* purple */
-    #833ab4, /* deep purple */
-    #f09433  /* loop back to yellow-orange */
-  );
+  border: 6px solid transparent;
+  background: linear-gradient(45deg, rgba(0,77,64,0.4), rgba(255,165,0,0.4), rgba(128,0,128,0.4));
+  background-clip: border-box;
 }
 
 
@@ -47,7 +40,7 @@
   width: 50px;
   height: 50px;
   border: 0;
-  color: #f09433;
+  color: #FFFFFF;
   cursor: pointer;
   font-size: 30px;
   line-height: 70px;
@@ -608,7 +601,7 @@ small {
     position: absolute;
   }
   nav a.button-collapse, nav a.button-collapse i {
-    color: #009688;
+    color: #f09433;
     height: 56px;
     line-height: 56px;
   }
