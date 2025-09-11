@@ -1,19 +1,18 @@
 .profile-pic {
   position: relative;
-  max-width:130px;
-  max-height:130px;
+  max-width: 130px;
+  max-height: 130px;
   width: auto;
   height: auto;
   overflow: hidden;
-  /* display: inline-block; */
-  
-  
-  /* background-size: cover;  */
   margin: -31px; 
-  margin-left:-7px;
- border: linear-gradient(45deg, rgba(0,77,64,0.4), rgba(255,165,0,0.4), rgba(128,0,128,0.4)) 1;
+  margin-left: -7px;
   border-radius: 50% !important;
+  border: 6px solid transparent;
+  background: linear-gradient(45deg, rgba(0,77,64,0.4), rgba(255,165,0,0.4), rgba(128,0,128,0.4));
+  background-clip: border-box;
 }
+
 
 .profile-pic img {
   width: 100%;
